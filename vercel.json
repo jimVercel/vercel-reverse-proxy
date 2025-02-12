@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://api.haozuopin.cn/api/$1" }
+    {
+      "source": "/api/(.*)",
+      "destination": "https://47.106.201.63:3105/api/$1"
+    }
   ]
 }
